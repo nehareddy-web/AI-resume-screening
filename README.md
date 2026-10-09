@@ -1,6 +1,5 @@
 <!-- ============================================================
   HORROR README - AI Resume Screening System
-  Paste into README.md of this repo. Search "EDIT" for things to check.
 ============================================================= -->
 
 <div align="center">
@@ -67,7 +66,6 @@ It reads each resume, **classifies it into a job category**, and scores candidat
 ```
 
 </div>
-<!-- EDIT: the 25% reporting figure is from the Power BI/Excel work on your resume; remove the row if it is not part of this repo -->
 
 ---
 
@@ -94,7 +92,6 @@ It reads each resume, **classifies it into a job category**, and scores candidat
         ▼
    🏆 RANKED SHORTLIST      the best candidates rise to the top
 ```
-<!-- EDIT: if your classifier uses a specific model (e.g., Logistic Regression, SVM, KNN), mention it in the CLASSIFICATION step -->
 
 ---
 
@@ -106,7 +103,6 @@ It reads each resume, **classifies it into a job category**, and scores candidat
  🔴  KEYWORDS & CONTEXT    →  language patterns extracted with NLP
  🔴  JOB CATEGORY          →  the field the resume belongs to
 ```
-<!-- EDIT: add any other features your model uses (education, location, etc.) -->
 
 ---
 
@@ -125,7 +121,6 @@ $ ./screen --resumes=5200 --job="Data Analyst"
 $ status
 > The pile has been defeated.
 ```
-<!-- This log is just storytelling to match the theme -->
 
 ---
 
@@ -138,7 +133,6 @@ $ status
 | NLP | Text cleaning, TF-IDF vectorization |
 | Machine learning | Scikit-learn, cosine similarity |
 | Reporting | Power BI, Excel |
-<!-- EDIT: add PDF libraries (PyPDF2, pdfplumber) or NLTK/spaCy if you used them, and remove anything you did not -->
 
 ---
 
@@ -155,7 +149,6 @@ pip install -r requirements.txt
 # 3. Unleash the screener
 python main.py
 ```
-<!-- EDIT: change main.py and requirements.txt to your real file names (or the notebook name) -->
 
 ---
 
@@ -164,7 +157,6 @@ python main.py
 - 🔴 Add a web interface where recruiters can upload resumes and a job description
 - 🔴 Try transformer-based embeddings for deeper semantic matching
 - 🔴 Add explanations showing why each candidate was ranked where they were
-<!-- EDIT: keep only the ones you actually plan to do -->
 
 ---
 
